@@ -1,0 +1,115 @@
+header {
+	
+	border-style:solid;
+	border-color:CCD0E1;
+	border-width:5px;
+	border-radius:10px;
+	margin-left:30px;
+	margin-right:30px;
+	height:150px;
+
+}
+
+body{
+	height:100%;
+	background-image: url("light-grey-terrazzo.png");
+	text-align:justify;
+}
+
+h1 {
+	margin-top: 0;
+	margin-bottom:0;
+	font-size:100px;
+	font-family:"Lato", "Verdana";
+	color: #333333;
+	padding:10px;
+
+
+}
+
+#left {
+	display:inline-block;
+	box-sizing:border-box;
+	border-style:solid;
+	border-color:CCD0E1;
+	float:left;
+	padding:20px;
+	margin:30px;
+
+}
+
+#right {
+
+	display:inline-block;
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: CCD0E1;
+	justify-content:center;
+	float: right;
+	padding: 20px;
+	margin:30px;
+}
+
+
+
+h2 {
+	color: #333333;
+    font-family: Lato, sans-serif;
+    font-size: 50px;
+    font-style:bold;
+    margin-top: 0;
+	
+}
+
+p  {
+	font-size:15px;
+	font-family:"Lato", "Verdana";
+}
+
+table {
+	border-style:solid;
+	border-width:5px;
+	padding:10px;
+	width:600;
+	margin:auto;
+}
+
+th {
+	border-style:solid;
+	border-width:2px;
+	background-color:D1E1E9;
+	font-style:bold;
+	font-size:15px;
+	font-family:"Lato", "Verdana";
+}
+
+td {
+	border-style:solid;
+	border-width:1px;
+	background-color:D0C6C6;
+	font-size:15px;
+	font-family:"Lato", "Verdana";
+}
+
+
+li {
+
+	display:inline-block;
+	padding:30px;
+	margin:none;
+}
+
+footer p {
+
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: CCD0E1;
+	clear:both;
+	width: 100%;
+	bottom: 0;
+	font-size:100px;
+	font-family:"Lato", "Verdana";
+	text-align: center;
+	margin:30px;
+
+}
