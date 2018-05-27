@@ -1,16 +1,24 @@
 header {
 	
-	width:100%;
+	width:auto;
 
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
 
-
+	header {
+		width:auto;
+	}
 	body {
 
 		align-content:space-between;
 
+	}
+
+	nav ul {
+
+		float:right;
+	}
 	}
 	nav li {
 		display:block
