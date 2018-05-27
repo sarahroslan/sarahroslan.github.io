@@ -4,11 +4,17 @@ header {
 
 }
 
-@media only screen and (max-width: 490px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
 
+
+	body {
+
+		display:flex;
+		align-items:space-between;
+	}
 
 	nav li {
-
+		display:inline-block;
 		padding-right: 0.5em;
 		
 	}
@@ -16,22 +22,25 @@ header {
 	#left {
 		display:block;
 		float:none;
-		width:none;
-		padding:none;
+		width:auto;
 		margin:none;
-		box-sizing: none;
-		flex: nowrap;
-
+		align-content: center
+		
 	}
 
 	#right {
 
 		display:block;
 		float:none;
-		width:none;
-		box-sizing: none;
+		width:auto;
+		margin:none;
+		align-content: center;
+		
 	}
 
+
+	
+	
 }
 
 body{
@@ -80,7 +89,7 @@ h1 {
 	border-width: 1px;
 	border-color:#e5e5e5;
 	float:left;
-	width:60%;
+	width:800px;
 	padding:20px;
 	margin:30px;
 
@@ -95,7 +104,7 @@ h1 {
 	border-width: 1px;
 	border-color:#e5e5e5;
 	justify-content: center;
-	width:30%;
+	width:450px;
 	float: right;
 	padding:20px;
 	margin:30px;
